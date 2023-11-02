@@ -1,0 +1,31 @@
+.figurees {
+	grid-row: 1 / 2;
+	margin: 0;
+	display: grid;
+/*	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(12, 1fr); */
+	grid-template-columns: repeat(10, 1fr);
+	gap: 1rem;
+}
+.imges {
+	grid-column: span 4;
+	vertical-align: bottom;
+	max-height: 350px;
+	clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
+	width: 100%;
+	object-fit: cover;
+}
+
+
+/*  Typography 
+------------------------------------------------------------- */
+
+h1, h2 {
+	font-family: Avenir, Heveltica, sans-serif;
+	margin: 0;
+}
+h2 {
+	font-weight: 100;
+}
+
+
